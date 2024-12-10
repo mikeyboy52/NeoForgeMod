@@ -11,6 +11,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> BORION = ITEMS.register("borion",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> BISMUTH = ITEMS.register("bismuth",
+            () -> new Item(new Item.Properties()));
 
 
 
