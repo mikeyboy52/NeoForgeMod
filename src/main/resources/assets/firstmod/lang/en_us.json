@@ -1,6 +1,7 @@
 {
-"item.firstmod.borion": "Borion",
+  "item.firstmod.borion": "Borion",
   "item.firstmod.bismuth": "Bismuth",
+  "item.firstmod.chisel": "Chisel",
 
   "block.firstmod.bismuth_block": "Block of Bismuth",
   "block.firstmod.bismuth_ore": "Bismuth Ore",

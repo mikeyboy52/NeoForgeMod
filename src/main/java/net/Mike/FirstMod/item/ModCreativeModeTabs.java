@@ -22,6 +22,9 @@ public class ModCreativeModeTabs {
                     .displayItems((ItemDisplayParameters, output) -> {
                         output.accept(ModItems.BISMUTH);
                         output.accept(ModItems.BORION);
+
+                        output.accept(ModItems.CHISEL);
+
                     }).build());
 
     public static final Supplier<CreativeModeTab> FIRST_MOD_BLOCK_TAB = CREATIVE_MODE_TAB.register("first_mod_blocks_tab",
