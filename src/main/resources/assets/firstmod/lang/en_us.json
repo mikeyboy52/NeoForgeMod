@@ -3,10 +3,24 @@
   "item.firstmod.bismuth": "Bismuth",
   "item.firstmod.chisel": "Chisel",
 
+  "item.firstmod.radish": "Radish",
+
+  "item.firstmod.frostfire_ice": "Frostfire Ice",
+  "item.firstmod.starlight_ashes": "Starlight Ashes",
+
+
+
+
   "block.firstmod.bismuth_block": "Block of Bismuth",
   "block.firstmod.bismuth_ore": "Bismuth Ore",
   "block.firstmod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
+  "block.firstmod.magic_block": "Magic Block",
 
   "creativetab.firstmod.firstmod_items": "Firstmod Items",
-  "creativetab.firstmod.firstmod_blocks": "Firstmod Blocks"
+  "creativetab.firstmod.firstmod_blocks": "Firstmod Blocks",
+
+  "tooltip:firstmod:magic_block_tooltip": "This block is §bMagical§r",
+  "tooltip.tutorialmod.chisel.shift_down": "This item can Chisel Blocks into Bricks/other blocks",
+  "tooltip.tutorialmod.chisel": "hold §eShift§r for more information",
+  "tooltip.tutorialmod.radish.tooltip": "tastes really great!!"
 }
