@@ -1,0 +1,10 @@
+{
+  "values": {
+    "firstmod:frostfire_ice": {
+      "burn_time": 1200
+    },
+    "firstmod:starlight_ashes": {
+      "burn_time": 800
+    }
+  }
+}

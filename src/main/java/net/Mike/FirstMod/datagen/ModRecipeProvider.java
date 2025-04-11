@@ -40,6 +40,25 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         oreSmelting(recipeOutput, BISMUTH_SMELTABLES, RecipeCategory.MISC, ModItems.BISMUTH.get(), 0.25f, 200, "bismuth");
         oreBlasting(recipeOutput, BISMUTH_SMELTABLES, RecipeCategory.MISC, ModItems.BISMUTH.get(), 0.25f, 100, "bismuth");
+
+        stairBuilder(ModBlocks.BISMUTH_STAIRS.get(), Ingredient.of(ModBlocks.BISMUTH_BLOCK))
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BISMUTH_SLAB.get(), ModBlocks.BISMUTH_BLOCK);
+
+        buttonBuilder(ModBlocks.BISMUTH_BUTTON.get(), Ingredient.of(ModBlocks.BISMUTH_BLOCK))
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH)).save(recipeOutput);
+        pressurePlate(recipeOutput, ModBlocks.BISMUTH_PRESSURE_PLATE.get(), ModBlocks.BISMUTH_BLOCK);
+
+        fenceBuilder(ModBlocks.BISMUTH_FENCE.get(), Ingredient.of(ModItems.BISMUTH.get()))
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH)).save(recipeOutput);
+        fenceGateBuilder(ModBlocks.BISMUTH_FENCE_GATE.get(), Ingredient.of(ModItems.BISMUTH.get()))
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH)).save(recipeOutput);
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BISMUTH_WALL.get(), ModBlocks.BISMUTH_BLOCK);
+
+        doorBuilder(ModBlocks.BISMUTH_DOOR.get(), Ingredient.of(ModBlocks.BISMUTH_BLOCK))
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH)).save(recipeOutput);
+        trapdoorBuilder(ModBlocks.BISMUTH_TRAPDOOR.get(), Ingredient.of(ModBlocks.BISMUTH_BLOCK))
+                .unlockedBy("has_bismuth", has(ModItems.BISMUTH)).save(recipeOutput);
     }
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
             float pExperience, int pCookingTime, String pGroup) {

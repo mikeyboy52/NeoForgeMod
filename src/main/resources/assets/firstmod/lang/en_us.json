@@ -16,6 +16,20 @@
   "block.firstmod.bismuth_deepslate_ore": "Bismuth Deepslate Ore",
   "block.firstmod.magic_block": "Magic Block",
 
+  "block.firstmod.bismuth_stairs": "Bismuth Stairs",
+  "block.firstmod.bismuth_slab": "Bismuth Slab",
+  "block.firstmod.bismuth_pressure_plate": "Bismuth Pressure Plate",
+  "block.firstmod.bismuth_button": "Bismuth Button",
+  "block.firstmod.bismuth_fence": "Bismuth Fence",
+  "block.firstmod.bismuth_fence_gate": "Bismuth Fence Gate",
+  "block.firstmod.bismuth_wall": "Bismuth Wall",
+  "block.firstmod.bismuth_door": "Bismuth Door",
+  "block.firstmod.bismuth_trapdoor": "Bismuth Trapdoor",
+
+
+
+
+
   "creativetab.firstmod.firstmod_items": "Firstmod Items",
   "creativetab.firstmod.firstmod_blocks": "Firstmod Blocks",
 

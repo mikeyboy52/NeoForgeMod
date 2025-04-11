@@ -1,0 +1,16 @@
+{
+  "values": [
+    "firstmod:bismuth_ore",
+    "firstmod:bismuth_deepslate_ore",
+    "firstmod:bismuth_block",
+    "firstmod:bismuth_stairs",
+    "firstmod:bismuth_slab",
+    "firstmod:bismuth_button",
+    "firstmod:bismuth_pressure_plate",
+    "firstmod:bismuth_fence",
+    "firstmod:bismuth_fence_gate",
+    "firstmod:bismuth_wall",
+    "firstmod:bismuth_door",
+    "firstmod:bismuth_trapdoor"
+  ]
+}
